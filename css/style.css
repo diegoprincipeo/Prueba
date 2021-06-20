@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+body{
+    background:url(file:///c:/Users/diego/Downloads/Coder_JavaScript/md_market_maribel/img/fondo2.jpg);
+    background-size: 100vw 75vh;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width:1440px){
+    body{
+        background-size: 100vw 60vh;
+    }
+}
+@media screen and (max-width:768px){
+    body{
+        background-size: 100vw 50vh;
+    }
+}
+@media screen and (max-width:425px){
+    body{
+        background-size: 100vw 45vh;
+    }
+}
+
+/*Header*/
+@media screen and (min-width:1440px){
+    .navbar{
+        width: 70%;
+        margin: auto;
+    }
+}
+/*Header*/
+
+/*Message*/
+.mensaje{
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+    top: 150px;
+}
+/*Message*/
+
+/*Products*/
+.titulo{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    padding:200px 0 100px 0;
+}
+@media screen and (max-width:425px){
+    .titulo{
+        padding:20px 0;
+        font-size: 120%;
+    }
+}
+.card-deck .card img{
+    padding: 0.5rem;
+}
+.productos{
+    padding: 0 200px 50px 200px;
+}
+@media screen and (max-width:1200px){
+    .productos{
+        padding: 0 20px 50px 20px;
+    }
+}
+.card-body h5{
+    font-weight: bold;
+}
+.card .card-footer{
+    background-color: #003352;
+}
+.text-muted{
+    color: #fff !important;
+}
+.card .btn-primary{
+    z-index: 2;
+    font-size: 14px;
+    font-weight: 800;
+    fill: #003352;
+    color: #fff;
+    background-color: #003352;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #FFFFFF;
+    border-radius: 25px 25px 25px 25px;
+    padding: 5px 10px 5px 10px;
+    opacity: 1;
+}
+/*Products*/
