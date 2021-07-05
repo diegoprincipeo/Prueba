@@ -75,3 +75,16 @@ ProductoOrden.sort((a,b) => {
         return 0;
 });
 console.log(ProductoOrden)
+
+//Local Storage
+
+let usuario
+
+const usuarioLS = localStorage.getItem('usuario')
+if (usuarioLS === null) {
+    usuario = prompt('Hola, por favor ingrese su nombre')
+    localStorage.setItem('usuario', usuario)
+} else {
+    usuario = usuarioLS
+}
+alert('Bienvenido '+usuario)
